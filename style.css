@@ -28,7 +28,7 @@ body {
   color: #A5A5A5;
 }
 
-#search_text {
+#user_input {
   background-color: #FFFFFF;
   border-radius: 3px;
   border: 1px solid #E1E1E1;
@@ -40,7 +40,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#search_text:focus {
+#user_input:focus {
   background-color: #8C8C8C;
   color: #FFFFFF;
   text-align: left;
@@ -71,7 +71,7 @@ body {
   font-size: 1.2em;
 }
 
-#post-1 {
+#element1 {
     padding-top: 10%;
     padding-left: 10%;
     width: 63%;
@@ -82,13 +82,13 @@ body {
   display: block;
 }
 
-#recommended{
+.suggestions{
   padding-top: 5%;
   padding-left: 10%;
   width: 63%;
 }
 
-#post-2 {
+#element2 {
   padding-top: 5%;
   padding-left: 10%;
   width: 63%;
@@ -104,32 +104,24 @@ body {
     #stories {
       display: none;
     }
-    #post-1{
+    #element1{
       width:90%;
     }
-    #post-2 {
+    #element2 {
       width: 90%;
     }
-    #recommended {
+    .suggestions {
       width: 90%;
     }
 
 }
 
-#like1, #like2 {
+.caption, .comments, #like1, #like2 {
   padding-left: 25px;
 }
 
 #save1 {
   right: 30px;
-}
-
-.caption {
-  padding-left: 25px;
-}
-
-.comments {
-  padding-left: 25px;
 }
 
 .post_time {

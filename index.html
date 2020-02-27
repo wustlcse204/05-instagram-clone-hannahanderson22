@@ -8,14 +8,18 @@
         <meta name="description" content="Hannah Anderson's CSE 204A Assignment 5: Instagram Clone.">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!--Link to Bootstrap (used a lot of nav and card formatting)-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!--Link to personal stylesheet-->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Icon for tab-->
         <link rel="tabicon" href="ig_icon.png">
 
         <title> CSE204A Instagram Clone </title>
     </head>
 
     <body>
+      <!--Header Bar-->
         <nav id="navbar" class="navbar-light bg-white">
             <div class="d-flex justify-content-around">
                 <div class="navbar-brand">
@@ -24,7 +28,7 @@
                     </a>
                 </div>
                 <div id="search" class="nav-link">
-                    <input id="search_text" type="text" placeholder="Search" onfocus="this.placeholder=''">
+                    <input id="user_input" type="text" placeholder="Search" onfocus="this.placeholder=''">
                 </div>
                 <div class="d-flex justify-content-around" id="headeractions">
                     <div class="nav-link"> <img src="compass_icon.png" alt="Compass Icon"> </div>
@@ -34,8 +38,9 @@
             </div>
         </nav>
 
+        <!--Stories-->
         <div id="stories" class="nav flex-column nav-pills">
-            <div id="friend_stories">
+            <div class="stories_followers">
                 <div class="nav-link d-flex justify-content-start">
                   <div class="prof_bar">
                     <img src="Hannah_Prof.png" alt="Personal Profile">
@@ -98,7 +103,8 @@
             </div>
         </div>
 
-        <div id="post-1">
+        <!--First Picture-->
+        <div id="element1">
             <div class="card bg-white">
                 <nav class="navbar-light bg-white">
                     <div class="d-flex justify-content-start">
@@ -155,7 +161,8 @@
             </div>
         </div>
 
-        <div id="recommended">
+        <!--Suggestions to Follow-->
+        <div class="suggestions">
             <nav class="card bg-white">
                 <nav class="navbar-light bg-white d-flex justify-content-between">
                     <div id="suggestion" class="nav-link"> Suggestions For You </div>
@@ -199,7 +206,8 @@
             </nav>
         </div>
 
-        <div id="post-2">
+        <!--Second Picture-->
+        <div id="element2">
           <div class="card bg-white">
               <nav class="navbar-light bg-white">
                   <div class="d-flex justify-content-start">
@@ -256,6 +264,7 @@
           </div>
         </div>
 
+        <!--Footer-->
         <footer>
           <div class="footerlinks">
             <a>ABOUT US</a> - <a>HELP</a> - <a>PRESS</a> - <a>API</a> - <a>JOBS</a> -
